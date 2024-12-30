@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dynamic SEO Optimization</title>
+  <script>
+    // Function to dynamically add SEO meta tags
+    function setSEO() {
+      // Set meta description
+      let description = document.createElement('meta');
+      description.name = "description";
+      description.content = "Learn about SEO optimization with JavaScript code examples.";
+      document.head.appendChild(description);
+
+      // Set meta keywords
+      let keywords = document.createElement('meta');
+      keywords.name = "keywords";
+      keywords.content = "JavaScript, SEO, dynamic meta tags, coding, optimization";
+      document.head.appendChild(keywords);
+
+      // Set meta author
+      let author = document.createElement('meta');
+      author.name = "author";
+      author.content = "Anonymous Code";
+      document.head.appendChild(author);
+
+      // Set Open Graph tags for social media
+      let ogTitle = document.createElement('meta');
+      ogTitle.setAttribute('property', 'og:title');
+      ogTitle.content = "Dynamic SEO Optimization with JavaScript";
+      document.head.appendChild(ogTitle);
+
+      let ogDescription = document.createElement('meta');
+      ogDescription.setAttribute('property', 'og:description');
+      ogDescription.content = "Enhance your website SEO with JavaScript-powered meta tags.";
+      document.head.appendChild(ogDescription);
+
+      let ogUrl = document.createElement('meta');
+      ogUrl.setAttribute('property', 'og:url');
+      ogUrl.content = "https://example.com/seo-optimization";
+      document.head.appendChild(ogUrl);
+
+      let ogImage = document.createElement('meta');
+      ogImage.setAttribute('property', 'og:image');
+      ogImage.content = "https://example.com/seo-image.jpg";
+      document.head.appendChild(ogImage);
+
+      // Set Twitter Card tags
+      let twitterCard = document.createElement('meta');
+      twitterCard.name = "twitter:card";
+      twitterCard.content = "summary_large_image";
+      document.head.appendChild(twitterCard);
+
+      let twitterTitle = document.createElement('meta');
+      twitterTitle.name = "twitter:title";
+      twitterTitle.content = "Dynamic SEO Optimization with JavaScript";
+      document.head.appendChild(twitterTitle);
+
+      let twitterDescription = document.createElement('meta');
+      twitterDescription.name = "twitter:description";
+      twitterDescription.content = "Learn to dynamically enhance SEO with JavaScript.";
+      document.head.appendChild(twitterDescription);
+
+      let twitterImage = document.createElement('meta');
+      twitterImage.name = "twitter:image";
+      twitterImage.content = "https://example.com/twitter-image.jpg";
+      document.head.appendChild(twitterImage);
+    }
+
+    // Call the function to set SEO meta tags
+    setSEO();
+  </script>
+</head>
+<body>
+  <h1>SEO Optimization with JavaScript</h1>
+  <p>This example demonstrates how to dynamically enhance SEO using JavaScript.</p>
+</body>
+</html>
